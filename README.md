@@ -17,7 +17,9 @@ Framing with '$$' the products look much better now:
 $$(2^n)! \cdot 2 = 2^{2^n} \cdot  \prod_{j=1}^{n-1} \enspace  \prod_{i=2^{n-j-1}+1}^{2^{n-j}}(2i-1)^{j}$$
 
 Similar to screenshot from Latex rendered formula:  
+<kbd>
 ![factorial_pow2_odd.png](factorial_pow2_odd.png)
+</kbd>
 
 ## multiline eqnarray* works as well
 
