@@ -24,12 +24,15 @@ Similar to screenshot from Latex rendered formula:
 ## multiline eqnarray* works as well
 
 $$\begin{eqnarray*}
-     (2n)!    & =& n! 2^n \prod_{i=1}^{n}(2i-1) & & (1)\\
-     (2^n)!   & =& (2^{n-1})! 2^{2^{n-1}} \prod_{i=1}^{2^{n-1}}(2i-1) & & (2)\\
-              & =& (2^{n-2})! 2^{2^{n-2}} 2^{2^{n-1}} \prod_{i=1}^{2^{n-2}}(2i-1)  \prod_{i=1}^{2^{n-1}}(2i-1)\\
-              & =& (2^{n-3})! 2^{2^{n-3}} 2^{2^{n-2}} 2^{2^{n-1}} \prod_{i=1}^{2^{n-3}}(2i-1) \prod_{i=1}^{2^{n-2}}(2i-1)  \prod_{i=1}^{2^{n-1}}(2i-1)\\
-              & =& 2^{2^0} \cdot \dots \cdot 2^{2^{n-3}} \cdot 2^{2^{n-2}} \cdot 2^{2^{n-1}} \cdot \prod_{i=1}^{2^1}(2i-1) \cdot \dots \cdot \prod_{i=1}^{2^{n-3}}(2i-1) \cdot \prod_{i=1}^{2^{n-2}}(2i-1)  \prod_{i=1}^{2^{n-1}}(2i-1)  & & (3)\\
-              & =& 2^{2^n-1} \cdot \prod_{i=1}^{2^1}(2i-1) \cdot \dots \cdot \prod_{i=1}^{2^{n-3}}(2i-1) \cdot \prod_{i=1}^{2^{n-2}}(2i-1)  \prod_{i=1}^{2^{n-1}}(2i-1)\\
-              & =& 2^{2^n-1} \prod_{j=1}^{n-1} \enspace  \prod_{i=2^{n-j-1}+1}^{2^{n-j}}(2i-1)^{j} \\
-     (2^n)! \cdot 2  & =& 2^{2^n} \cdot  \prod_{j=1}^{n-1} \enspace  \prod_{i=2^{n-j-1}+1}^{2^{n-j}}(2i-1)^{j} \\
+& & &     (2n)!    & = & n! 2^n \prod_{i=1}^{n}(2i-1) & & (1)\\
+& & &     (2^n)!   & = & (2^{n-1})! 2^{2^{n-1}} \prod_{i=1}^{2^{n-1}}(2i-1) & & (2)\\
+& & &              & = & (2^{n-2})! 2^{2^{n-2}} 2^{2^{n-1}} \prod_{i=1}^{2^{n-2}}(2i-1)  \prod_{i=1}^{2^{n-1}}(2i-1)\\
+& & &              & = & (2^{n-3})! 2^{2^{n-3}} 2^{2^{n-2}} 2^{2^{n-1}} \prod_{i=1}^{2^{n-3}}(2i-1) \prod_{i=1}^{2^{n-2}}(2i-1)  \prod_{i=1}^{2^{n-1}}(2i-1)\\
+& & &              & = & 2^{2^0} \cdot \dots \cdot 2^{2^{n-3}} \cdot 2^{2^{n-2}} \cdot 2^{2^{n-1}} \cdot \prod_{i=1}^{2^1}(2i-1) \cdot \dots \cdot \prod_{i=1}^{2^{n-3}}(2i-1) \cdot \prod_{i=1}^{2^{n-2}}(2i-1)  \prod_{i=1}^{2^{n-1}}(2i-1)  & & (3)\\
+& & &              & = & 2^{2^n-1} \cdot \prod_{i=1}^{2^1}(2i-1) \cdot \dots \cdot \prod_{i=1}^{2^{n-3}}(2i-1) \cdot \prod_{i=1}^{2^{n-2}}(2i-1)  \prod_{i=1}^{2^{n-1}}(2i-1)\\
+& & &              & = & 2^{2^n-1} \prod_{j=1}^{n-1} \enspace  \prod_{i=2^{n-j-1}+1}^{2^{n-j}}(2i-1)^{j} \\
+& & &     (2^n)! \cdot 2  & =& 2^{2^n} \cdot  \prod_{j=1}^{n-1} \enspace  \prod_{i=2^{n-j-1}+1}^{2^{n-j}}(2i-1)^{j} \\
+\textrm{Alternatively from (3):}& \\ 
+& & &      (2^n)!   & = & 2^{2^n-1} \cdot \prod_{j=1}^{n-1} \enspace  \prod_{i=1}^{2^{n-j}}(2i-1) 
 \end{eqnarray*}$$
+
