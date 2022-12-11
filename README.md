@@ -9,7 +9,7 @@ This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 Works even when edited on github with Preview ...
 
 ## From my Obsidian "Number theory" vault
-[Odd prime iff unique difference of 2 squares.md](Number#20theory/Odd#20prime#20iff#20unique#20difference#20of#202#20squares.md)  
+[Odd prime iff unique difference of 2 squares.md](Number%20theory/Odd%20prime%20iff%20unique%20difference%20of%202%20squares.md)
 
 ## 1st problem 
 This is a formula with factorial, powers of 2 and odd numbers I tweeted on the weekend:  
