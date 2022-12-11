@@ -25,7 +25,7 @@ n = (2a+1)(2b+1) &= ((a+1)^2-a^2)((b+1)^2-b^2) \\
 
 
 Remark: every odd number has representation as canonical difference (1) of squares of a number and its predecessor. Knowing non-canonical reprepresentation (2) for RSA number _n=pq_ with odd primes _p_ and _q_ reveals factorization:  
-Just add both square numbers _(a+b+1) + (b-a) = 2b+1_ and get one of the factors.
+Just add 2nd square number to first and you get one of the factors _(a+b+1) + (b-a) = 2b+1_, subtract 2nd square number from first and you get the other factor _(a+b+1) - (b-a) = 2a+1_.
 
 $$\begin{flalign}
 n = (2a+1)(2b+1) &= ((a+1)^2-a^2)((b+1)^2-b^2) \\
