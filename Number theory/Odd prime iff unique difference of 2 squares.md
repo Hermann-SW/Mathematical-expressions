@@ -6,7 +6,7 @@ p &= b^2 - a^2 \\
   &\implies b+a=p \land b-a=1 \\
   &\implies 2b=p+1 \\
   &\implies b = (p+1)/2 \\
-  &\implies a = (p-1)/2 \; ∎\\
+  &\implies a = (p-1)/2\;∎\\
 \end{flalign}$$
 
 Odd composite integer _n_ = _(2a+1)(2b+1)_ with positive integers _a_ and _b_.  
